@@ -1,0 +1,6 @@
+{
+  "name": "MY INDIA. MY FREEDOM.",
+  "description": "Independence Day 2026 interactive Freedom Map experience powered by Decision Architect agents.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
