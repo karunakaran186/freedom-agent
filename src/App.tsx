@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { Analytics } from '@vercel/analytics/react';
 import { AppStep, FreedomMapData } from './types';
 import { generateDeterministicFreedomMap } from './lib/freedomEngine';
 import { Navbar } from './components/Navbar';
@@ -178,6 +179,7 @@ export default function App() {
           onNewMap={handleReset}
         />
       )}
+      <Analytics />
     </div>
   );
 }
